@@ -1,0 +1,64 @@
+.header{
+    background-color:   #b3f0ff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; 
+   
+}
+#logo img{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+#login{
+    background-color: rgb(46, 184, 208);
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+}
+#login:hover{
+    background-color:black;
+    color:  white ;
+}
+#profiletracker{
+    text-decoration: none;
+    color: black;
+}
+#mode{
+    background: none;
+    border: none;
+    font-size: 20px; 
+    cursor: pointer;
+    color:inherit;
+}
+
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+body.dark-mode .header{
+    background-color: black;
+}
+body.dark-mode #profiletracker{  
+    color: white;
+}
+body.dark-mode #about us{
+    color: white;
+}
+#aboutus{
+    text-decoration: none;
+    color: black;
+    color: inherit;
+}
